@@ -1,0 +1,1 @@
+create table plugins(name varchar(30), location text);

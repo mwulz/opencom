@@ -8,11 +8,21 @@ Founded by Michael Wulz 2011
 You can easily control your home/house with one system. You can add plugins for I/O-communication,XMLRPC connectors for 3rd party programs and much more...
 
 Requires:
-- Database (standard MySQL)
+- Database (standard MySQL,SQLite)
 - PHP5
 - lightHTTPd
 
 This system is designed to run on very-small hardware with low memory consumption.
+
+/db => Database files
+/http => HTML/PHP files
+/plugins => plugins files
+/db_schema => schema of database, with creates
+
+Required-Debian-Packages:
+sqlite
+lighttpd
+
 
 TODO:
 - user interface
