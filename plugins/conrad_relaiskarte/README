@@ -1,0 +1,8 @@
+==> script was found on: http://www.netzmafia.de/skripten/hardware/relais/relais.html
+thanks !!
+
+to build this plutin type:
+# make all
+
+to cleanup
+# make clean
